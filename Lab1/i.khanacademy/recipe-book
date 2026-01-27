@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        </style>
+    </head>
+    <body>
+       
+        <h1>Yonah's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#venison">Venison stew</a></li>
+            <li><a href="#cake">Fruit cake</a></li>
+            <li><a href="#signature">Seafront's signature</a></li>
+        </ol>
+        
+        <h2 id="venison">Venison stew</h2>
+        
+        <ul>
+            <li>Time: 1 hour</li>
+            <li>Serves: 4 bowls</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Venison</td>
+                <td>1 piece</td>
+            </tr>
+            <tr><td>Wheat</td>
+                <td>1 piece</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Give the ingredients to Yonah.
+</p>
+        <p><strong>Step 2:</strong> Wait around an hour</p>
+        <p><strong>Step 3:</strong> Eat the stew and pretend that you like it</p>
+        
+    <p><em>Source: <a href="https://nier.fandom.com/wiki/Yonah%27s_Home_Cooking" target="_blank">Yonah's cooking</a></em></p>
+    
+    <h2 id="cake">Fruit cake</h2>
+    <ul><li>Time: 1 hour</li>
+        <li>Serves: 1 cake</li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+        </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Melon</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Watermelon</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Pumpkin</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Step 1:</strong> Give the ingredients to Yonah<br>
+        <strong>Step 2:</strong> Wait around 1 hour<br>
+        <strong>Step 3:</strong> Eat it and pretend that you like it
+    </p>
+    <p><em>Source: <a href="https://nier.fandom.com/wiki/Yonah%27s_Gift" target="_blank">Yonah's gift</a></em></p>
+    
+        <h2 id="signature">Seafront's signature dish</h2>
+    <ul><li>Time: 2 hour</li>
+        <li>Serves: 10 plates</li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+        </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wheat</td>
+                <td>10 bags</td>
+            </tr>
+            <tr>
+                <td>Medicinal herb</td>
+                <td>10 pieces</td>
+            </tr>
+            <tr>
+                <td>Sardines</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><strong>Step 1:</strong> Deliver the ingredients to the client in Seafront<br>
+        <strong>Step 2:</strong> Wait around 2-3 hours<br>
+        <strong>Step 3:</strong> Enjoy!
+    </p>
+    <p><em>Source: <a href="https://nier.fandom.com/wiki/A_Signature_Dish" target="_blank">A signature dish</a></em></p>
+    </body>
+</html>
