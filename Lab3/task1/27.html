@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website</title>
+  <style>
+
+  </style>
+</head>
+<body>
+
+<script>
+  "use strict"
+  let a = 1, b = 1;
+  let c = ++a; // 2
+  let d = b++; // 1
+
+  let e = 2;
+  let x = 1 + (e *= 2); // 5
+/*
+  "" + 1 + 0  EQUALS 10
+  "" - 1 + 0  EQUALS -1
+  true + false EQUALS 1
+  6 / "3" EQUALS 2
+  "2" * "3" EQUALS 6
+  4 + 5 + "px" EQUALS 9px
+  "$" + 4 + 5 EQUALS $45
+  "4" - 2 EQUALS 2
+  "4px" - 2 EQUALS NaN
+  "  -9  " + 5 EQUAlS "  -9  5"
+  "  -9  " - 5 EQUALS -14
+  null + 1 EQUALS 1
+  undefined + 1 EQUALS NaN
+  " \t \n" - 2 EQUALS -2
+ */
+
+  let f = prompt("First number?", 1);
+  let g = prompt("Second number?", 2);
+
+  alert(Number(f) + Number(g)); // 12
+</script>
+
+</body>
+</html>
