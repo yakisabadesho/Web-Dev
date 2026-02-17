@@ -57,22 +57,24 @@ nav a{
 .task{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   background: #ffffff;
   padding: 20px;
   border-radius: 1px;
   border: 1px solid #cacaca;
+  transition: all 0.25s ease;
 }
 .task.completed {
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 .task span{
   flex:1;
   margin: 0 15px;
-  word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
+  max-width: 650px;
 }
 
 .completed span{
@@ -80,7 +82,7 @@ nav a{
 }
 
 .delete {
-  background: crimson;
+  background: #c52c2c;
   color: white;
   border: none;
   padding: 5px 10px;
