@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>jsinfo</title>
+</head>
+<body>
+<script>
+  "use strict"
+// Question 1:
+// It will result in an error, since user isnt an object, its a reference to a function.
+
+  let calculator = {
+    a: null,
+    b: null,
+    read(){
+      this.a = prompt("Value 1: ", '');
+      this.b = prompt("Value 2: ", '');
+    },
+    sum(){
+      return Number(this.a) + Number(this.b);
+    },
+    mul(){
+      return this.a * this.b;
+    }
+  };
+  calculator.read();
+  alert(calculator.sum());
+  alert(calculator.mul());
+
+  let ladder = {
+    step: 0,
+    up() {
+      this.step++;
+      return this;
+    },
+    down() {
+      this.step--;
+      return this;
+    },
+    showStep: function() { // shows the current step
+      alert( this.step );
+      return this;
+    }
+  };
+
+
+  ladder.up().up().down().showStep().down().showStep();
+</script>
+</body>
+</html>
