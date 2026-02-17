@@ -1,32 +1,38 @@
+<!DOCTYPE html>
 <!--Question 1 -->
 <!-- No difference for the function CheckAge question, since it will proceed to the confirmation (if the answer is <18) in any case, be there else statement or not -->
 
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>jsinfo</title>
-  </head>
-  <body>
-    <script>
-      /*//Question 2 
-      function checkAge(age) {
-        return (age > 18) ? true : confirm('Did parents allow you?');
-      }
-      function checkAge(age){
-        return (age > 18) || confirm ('Did parents allow you?');
-      }
-      //Question 3
-      function min(a,b){
-        return (a < b) ? a : b;
-      }*/
-      //Question 4
-      function pow(x, n){
-        let num = x;
-        for (let i =0; i<n; i++){
-          x *= num;
-        }
-        return x;
-      }
-      </script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>jsinfo</title>
+</head>
+<body>
+<script>
+  "use strict"
+  /*//Question 2
+  function checkAge(age) {
+    return (age > 18) ? true : confirm('Did parents allow you?');
+  }
+  function checkAge(age){
+    return (age > 18) || confirm ('Did parents allow you?');
+  }
+  //Question 3
+  function min(a,b){
+    return (a < b) ? a : b;
+  }*/
+  //Question 4
+  alert("Enter the number and power");
+  let x = prompt('x?', );
+  let n = prompt ('n?', );
+  function pow(x, n){
+    let num = x;
+    for (let i =1; i<n; i++){
+      x *= num;
+    }
+    return x;
+  }
+  alert(pow(x,n));
+</script>
+</body>
 </html>
