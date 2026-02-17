@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>jsinfo</title>
+</head>
+<body>
+<script>
+  "use strict"
+// Question 1:
+//It's possible, you just return the same object that was defined outside of the functions, since when functions return objects they return new instead of this
+
+  function Calculator(){
+    let a;
+    let b;
+    this.read = function(){
+      this.a = prompt("Value 1", '');
+      this.b = prompt("Value 2", '');
+    };
+    this.sum = function(){
+      return Number(this.a) + Number(this.b);
+    }
+    this.mul = function(){
+      return Number(this.a) * Number(this.b);
+    }
+  }
+  let calculator = new Calculator();
+  calculator.read();
+  alert(calculator.sum());
+  alert(calculator.mul());
+  
+  function Accumulator(startingValue){
+    this.value = startingValue;
+    this.read = function(){
+      this.value += Number(prompt("Enter a value to add: "));
+    }
+  }
+
+  let accumulator = new Accumulator(1); // initial value 1
+
+  accumulator.read(); // adds the user-entered value
+  accumulator.read(); // adds the user-entered value
+
+  alert(accumulator.value); // shows the sum of these values
+</script>
+</body>
+</html>
